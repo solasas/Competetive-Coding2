@@ -1,18 +1,18 @@
 package CAT1;
 
-class Node {
-    int data;
-    int priority;
-    Node prev, next;
-
-    Node(int data, int priority) {
-        this.data = data;
-        this.priority = priority;
-        prev = next = null;
-    }
-}
 
 public class PriorityQueueDll {
+    static class Node {
+        int data;
+        int priority;
+        CAT1.Node prev, next;
+
+        Node(int data, int priority) {
+            this.data = data;
+            this.priority = priority;
+            prev = next = null;
+        }
+    }
 
     Node head = null;
 
