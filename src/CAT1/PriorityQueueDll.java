@@ -5,7 +5,7 @@ public class PriorityQueueDll {
     static class Node {
         int data;
         int priority;
-        CAT1.Node prev, next;
+        Node prev, next;
 
         Node(int data, int priority) {
             this.data = data;
