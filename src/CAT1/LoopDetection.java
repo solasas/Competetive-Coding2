@@ -39,10 +39,10 @@ class LoopDetection {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         while (true) {
-            int n = in.nextInt();
+            int n = sc.nextInt();
 
             if (n == -1)
                 break;
