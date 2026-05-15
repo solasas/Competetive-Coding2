@@ -1,16 +1,17 @@
 package CAT1;
 
-class Node {
-    int data;
-    Node prev, next;
 
-    Node(int data) {
-        this.data = data;
-        prev = next = null;
-    }
-}
 
 public class MergeSortDll {
+    static class Node {
+        int data;
+        Node prev, next;
+
+        Node(int data) {
+            this.data = data;
+            prev = next = null;
+        }
+    }
 
     // Step 1: Find middle using slow-fast pointer
     static Node getMiddle(Node head) {
